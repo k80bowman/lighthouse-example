@@ -1,0 +1,24 @@
+{
+  "name": "lighthouse-example",
+  "version": "1.0.0",
+  "description": "A simple example of running Lighthouse Programmatically",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lighthouse-a11y": "node src/run-lighthouse.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k80bowman/lighthouse-example.git"
+  },
+  "author": "Katy Bowman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k80bowman/lighthouse-example/issues"
+  },
+  "homepage": "https://github.com/k80bowman/lighthouse-example#readme",
+  "dependencies": {
+    "chrome-launcher": "^0.13.1",
+    "lighthouse": "^5.6.0"
+  }
+}
