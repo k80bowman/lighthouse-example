@@ -46,7 +46,7 @@ function passOrFailA11y(results, optionSet, chrome) {
           `Target accessibility score: ${targetA11yScore}, current accessibility score ${accessibilityScore}`
         );
         chrome.kill();
-        process.exit(1);
+        process.exitCode = 1;
       }
     }
     if (windowSize === "mobile") {
@@ -55,7 +55,7 @@ function passOrFailA11y(results, optionSet, chrome) {
           `Target accessibility score: ${targetA11yScore}, current accessibility score ${accessibilityScore}`
         );
         chrome.kill();
-        process.exit(1);
+        process.exitCode = 1;
       }
     }
   }
