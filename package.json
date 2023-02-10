@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/k80bowman/lighthouse-example#readme",
   "dependencies": {
-    "chrome-launcher": "^0.13.1",
+    "chrome-launcher": "^0.13.2",
     "lighthouse": "^5.6.0"
   }
 }
